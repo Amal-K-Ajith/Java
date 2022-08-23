@@ -1,3 +1,12 @@
+/**
+    *This class is just used to printwords or characters in a pixelated manner where useing a character as the pixel it
+    *could be '@','#' extra use it while initialising the constructor. then call the method:
+    *   print(str)      ------  Prints vertically
+    *   printLine(str)  -----   Prints horizontally
+    *   printSentence(str)----  Prints in line with 4 words per line 
+    *The current made array only stores the capital alphabet(A-Z) symbols not even printed
+**/
+
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
