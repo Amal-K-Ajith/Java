@@ -6,6 +6,7 @@
     *   printLine(str)  -----   Prints horizontally
     *   printSentence(str)----  Prints in line with 4 words per line 
     *The current made array only stores the capital alphabet(A-Z) symbols not even printed
+    * O/P is given at the end for this for eg;
 **/
 
 import java.util.ArrayList;
@@ -54,7 +55,7 @@ public class PrintAlpha {
     }
 
     public static void main(String[] args) {
-        PrintAlpha a = new PrintAlpha();
+        PrintAlpha a = new PrintAlpha('#');
         a.printLine("Hello");
         a.print("Hello");
         a.printSentence("Hello there my whole world frineds");
@@ -160,3 +161,82 @@ public class PrintAlpha {
         System.out.println("\n");
     }
 }
+
+/**
+
+#       #   # # # # #   #           #             # # #     
+#       #   #           #           #           #       #
+#       #   #           #           #           #       #   
+# # # # #   # # # # #   #           #           #       #
+#       #   #           #           #           #       #
+#       #   #           #           #           #       #
+#       #   # # # # #   # # # # #   # # # # #     # # #
+
+
+#       #
+#       #
+#       # 
+# # # # #
+#       #
+#       #
+#       #
+
+# # # # #
+#
+#
+# # # # #
+#
+#
+# # # # # 
+
+#
+#
+#
+#
+#
+#
+# # # # #
+
+#
+#
+#
+#
+#
+#
+# # # # #
+
+  # # #
+#       #
+#       #
+#       #
+#       #
+#       #
+  # # #
+
+#       #   # # # # #   #           #             # # #              # # # # #   #       #   # # # # #   # # # #     # # # # #   
+#       #   #           #           #           #       #                #       #       #   #           #       #   #
+#       #   #           #           #           #       #                #       #       #   #           #       #   #
+# # # # #   # # # # #   #           #           #       #                #       # # # # #   # # # # #   # # # #     # # # # #   
+#       #   #           #           #           #       #                #       #       #   #           #   #       #           
+#       #   #           #           #           #       #                #       #       #   #           #     #     #
+#       #   # # # # #   # # # # #   # # # # #     # # #                  #       #       #   # # # # #   #       #   # # # # #   
+
+
+#       #   #       #            #       #   #       #     # # #     #           # # # # #
+# #   # #   #       #            #       #   #       #   #       #   #           #
+#   #   #   #       #            #       #   #       #   #       #   #           #
+#       #     #   #              #   #   #   # # # # #   #       #   #           # # # # #   
+#       #       #                # #   # #   #       #   #       #   #           #
+#       #       #                # #   # #   #       #   #       #   #           #
+#       #       #                #       #   #       #     # # #     # # # # #   # # # # #   
+
+
+#       #     # # #     # # # #     #           # # # #              # # # # #   # # # #     # # # # #   #       #   # # # # #   # # # #       # # #
+#       #   #       #   #       #   #           #       #            #           #       #       #       # #     #   #           #       #   #       #   
+#       #   #       #   #       #   #           #       #            #           #       #       #       #   #   #   #           #       #   #
+#   #   #   #       #   # # # #     #           #       #            # # # # #   # # # #         #       #   #   #   # # # # #   #       #     # # #
+# #   # #   #       #   #   #       #           #       #            #           #   #           #       #   #   #   #           #       #           #   
+# #   # #   #       #   #     #     #           #       #            #           #     #         #       #     # #   #           #       #   #       #
+#       #     # # #     #       #   # # # # #   # # # #              #           #       #   # # # # #   #       #   # # # # #   # # # #       # # #     
+
+*/
