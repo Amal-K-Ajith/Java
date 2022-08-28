@@ -42,6 +42,7 @@ public class PrintAlpha {
             { { 0, 1, 2, 3, 4 }, { 4 }, { 3 }, { 2 }, { 1 }, { 0 }, { 0, 1, 2, 3, 4 } }
     };
     private char ch = '@';
+    private len=4;
 
     public PrintAlpha(char c) {
         ch = c;
@@ -57,7 +58,11 @@ public class PrintAlpha {
         a.print("Hello");
         a.printSentence("Hello there my whole world frineds");
     }
-
+   
+    public void setLen(int l){
+       this.len=l;
+    }
+   
     // Private method
     synchronized private void print(int c[][]) {
         for (int i = 0; i < 7; i++) {
