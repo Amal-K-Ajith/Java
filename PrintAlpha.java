@@ -58,6 +58,7 @@ public class PrintAlpha {
         PrintAlpha a = new PrintAlpha('#');
         a.printLine("Hello");
         a.print("Hello");
+        a.setLen(2);
         a.printSentence("Hello there my whole world frineds");
     }
 
