@@ -1,3 +1,4 @@
+
 /**
     *This class is just used to printwords or characters in a pixelated manner where useing a character as the pixel it
     *could be '@','#' extra use it while initialising the constructor. then call the method:
@@ -42,7 +43,7 @@ public class PrintAlpha {
             { { 0, 1, 2, 3, 4 }, { 4 }, { 3 }, { 2 }, { 1 }, { 0 }, { 0, 1, 2, 3, 4 } }
     };
     private char ch = '@';
-    private len=4;
+    private int len = 4;
 
     public PrintAlpha(char c) {
         ch = c;
@@ -58,11 +59,11 @@ public class PrintAlpha {
         a.print("Hello");
         a.printSentence("Hello there my whole world frineds");
     }
-   
-    public void setLen(int l){
-       this.len=l;
+
+    public void setLen(int l) {
+        this.len = l;
     }
-   
+
     // Private method
     synchronized private void print(int c[][]) {
         for (int i = 0; i < 7; i++) {
@@ -112,7 +113,7 @@ public class PrintAlpha {
         int i = 0, st = 0;
         while (m.find()) {
             i++;
-            if (i >= 4) {
+            if (i >= this.len) {
                 sr.add(str.substring(st, m.start()));
                 st = m.start() + 1;
                 i = 0;
