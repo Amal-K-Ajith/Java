@@ -60,7 +60,7 @@ public class MyLinkedList {
 	}
 	
 	//Class Node
-	class Node
+	private class Node
 	{
 		Object ele;
 		Node next;
