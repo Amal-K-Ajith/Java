@@ -1,5 +1,5 @@
 /**
- * This is only a implementation of basic LinkedList operations
+ * This is only a implementation of basic LinkedList operations add,remove,clear,size,toString.
  */
 public class MyLinkedList {
 	private Node first;
