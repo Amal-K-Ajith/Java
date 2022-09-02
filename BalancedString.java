@@ -28,7 +28,6 @@ public class BalancedString {
 			if (ch == '(' || ch == '{' || ch == '[') {
 				top++;
 				c1[top] = ch;
-//					System.out.println(ch+" inserted");
 				continue;
 			}
 			char check;
@@ -36,31 +35,25 @@ public class BalancedString {
 				return false;
 			switch (ch) {
 			case ')':
-//				System.out.println("check 1");
 				check = c1[top];
 				top--;
 				if (check == '{' || check == '[') {
-//                	System.out.println("c1 true");
 					return false;
 				}
 				break;
 
 			case '}':
-//            	System.out.println("check 2");
 				check = c1[top];
 				top--;
 				if (check == '(' || check == '[') {
-//                	System.out.println("c2 true");
 					return false;
 				}
 				break;
 
 			case ']':
-//            	System.out.println("check 3");
 				check = c1[top];
 				top--;
 				if (check == '(' || check == '{') {
-//                	System.out.println("c3 true");
 					return false;
 				}
 				break;
