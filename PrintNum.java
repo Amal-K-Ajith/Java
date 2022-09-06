@@ -1,4 +1,4 @@
-
+// -----------------THIS  PRG PRINTS WORD FORMAT FOR THE NUMBER PASSED TO THE FUNC THE LIMIT FOR THE PRG IS 0 TO 999999 AND NO -VE NUMBER AT THE MOMENT
 public class PrintNum {
 
 	public static void main(String[] args) {
